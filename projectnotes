@@ -1,0 +1,25 @@
+# AWS Develop App 
+This is a sample project built for learning AWS development and GitHub workflow.
+It includes basic Python code, AWS architecture documentation, and common project files.
+# Features
+- Python application structure
+- AWS-ready design
+- Documentation folder (architecture, notes)
+- Clean and simple GitHub project format
+# Planned Architecture
+- AWS Lambda (backend)
+- API Gateway (API layer)
+- DynamoDB (database)
+- CloudWatch (logs)
+- S3 (hosting documentation or frontend)
+
+# Workflow
+User → API Gateway → Lambda → DynamoDB → Response
+# requirements.txt
+boto3
+#.gitignore
+__pycache__/
+*.log
+.env
+# app.py (Main File)
+print("Hello AWS Developer! Your app is running.")
